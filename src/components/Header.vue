@@ -41,7 +41,7 @@ const toggleMenu = () => {
 </script>
 
 <template>
-    <div id="navbar" :class="{ '-top-60': scrolledDown, 'top-0': !scrolledDown }"  class=" opacity-100  z-50 bg-primary fixed flex justify-between w-full top-0 h-[100px] pt-2 px-7.5p items-center transition-all ease-in-out duration-500" >
+    <div id="navbar" :class="{ '-top-28': scrolledDown, 'top-0': !scrolledDown }"  class=" opacity-100  z-50 bg-primary fixed flex justify-between w-full top-0 h-[100px] pt-2 px-7.5p items-center transition-all ease-in-out duration-500" >
 
         <RouterLink to="/">
             <img src="@/assets/images/logo/logo.png" class="w-full h-16">
